@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Poppins&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <title>Frogs Seller</title>
+    <style>
+        body {
+            background-image: url(images/bg.png);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="basket">
+            <img src="images/basket.png" alt="" class="basket__image">
+        </div>
+        <a href="index.html" class="logo">
+            <picture>
+                <source srcset="images/frogo_logo.webp" type="image/webp">
+                <img src="images/frogo_logo.png" alt="frogo-logo" class="logo__image">
+            </picture>
+            <div class="logo__text">
+                <span>Frogs Seller</span>
+            </div>
+        </a>
+        <nav class="nav">
+            <input type="checkbox" id="nav__burger" class="hidden">
+            <label for="nav__burger" class="nav__burger">
+                <span></span>
+            </label>
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#" class="nav__link">Frogs</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Toads</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">About us</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Contacts</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Basket</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="inform">
+            <div class="inform__image-block">
+                <picture>
+                    <source srcset="images/frog-in-hand.webp" type="image/webp">
+                    <img src="images/frog-in-hand.png" alt="frog-in-hand" class="inform__image">
+                </picture>
+            </div>
+            <div class="inform__text">
+                <p class="text__p">
+                    In the 21st century, more and more people want to have a frog or toad as a pet and friend. Our
+                    company will help you with the selection and purchase of your future amphibian friend. Tens of
+                    thousands of toads and frogs are splashing in our swamps and reservoirs, which are just waiting
+                    for
+                    you to pick them up and treat them to beetles.
+                </p>
+                <p class="text__p text__p_position">
+                    Just look at those happy eyes of this beautiful plump toad, we are sure that the eyes of the new
+                    owner and friend of this beauty are just as happy. I think after what you saw, you have no more
+                    questions left except for those answers to which will allow you to find out where and when you
+                    can
+                    pick up your toad or frog.
+                </p>
+            </div>
+        </section>
+        <section class="clients">
+            <h2 class="title">
+                <span>Our regular customers</span>
+            </h2>
+            <div class="clients__logos">
+                <picture>
+                    <a href="#">
+                        <source srcset="images/google-logo.webp" type="image/webp">
+                        <img src="images/google-logo.png" alt="google-logo" class="clients__logo">
+                    </a>
+                </picture>
+                <picture>
+                    <a href="#">
+                        <source srcset="images/harley-logo.webp" type="image/webp">
+                        <img src="images/harley-logo.png" alt="samsung-logo" class="clients__logo">
+                    </a>
+                </picture>
+                <picture>
+                    <a href="#">
+                        <source srcset="images/apple-logo.webp" type="image/webp">
+                        <img src="images/apple-logo.png" alt="apple-logo" class="clients__logo">
+                    </a>
+                </picture>
+                <picture>
+                    <a href="#">
+                        <source srcset="images/disney-logo.webp" type="image/webp">
+                        <img src="images/disney-logo.png" alt="samsung-logo" class="clients__logo">
+                    </a>
+                </picture>
+                <picture>
+                    <a href="#">
+                        <source srcset="images/samsung-logo.webp" type="image/webp">
+                        <img src="images/samsung-logo.png" alt="samsung-logo" class="clients__logo">
+                    </a>
+                </picture>
+            </div>
+        </section>
+
+        <section class="goods-example">
+            <div class="example">
+                <h2 class="title">
+                    <span class="title__text">Examples of our frogs</span>
+                </h2>
+                <div id="slider">
+                    <div class="wrapper">
+                        <input checked type=radio name="slider" id="slide1" />
+                        <input type=radio name="slider" id="slide2" />
+                        <input type=radio name="slider" id="slide3" />
+                        <input type=radio name="slider" id="slide4" />
+                        <div class="slider-wrapper">
+                            <div class=inner>
+                                <article>
+                                    <div class="info top-left">
+                                        <h3></h3>
+                                    </div>
+                                    <img src="images/frog-image1.png" class="info-image" />
+                                </article>
+                                <article>
+                                    <div class="info top-left">
+                                        <h3></h3>
+                                    </div>
+                                    <img src="images/frog-image2.png" class="info-image" />
+                                </article>
+                                <article>
+                                    <div class="info top-left">
+                                        <h3></h3>
+                                    </div>
+                                    <img src="images/frog-image3.png" class="info-image" />
+                                </article>
+                                <article>
+                                    <div class="info top-left">
+                                        <h3></h3>
+                                    </div>
+                                    <img src="images/frog-image4.png" class="info-image" />
+                                </article>
+                            </div>
+                        </div>
+                        <div class="slider-prev-next-control">
+                            <label for=slide1></label>
+                            <label for=slide2></label>
+                            <label for=slide3></label>
+                            <label for=slide4></label>
+                        </div>
+                        <div class="slider-dot-control">
+                            <label for=slide1></label>
+                            <label for=slide2></label>
+                            <label for=slide3></label>
+                            <label for=slide4></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+            <div class="goods-example__text">
+                <p class="text__p">
+                    Here you can watch the smallest part of those beautiful frogs that you can buy from us. For more
+                    accurate information on the range and availability of frogs, leave your details and we will contact
+                    you as soon as possible
+                </p>
+            </div>
+        </section>
+        <section class="registration">
+            <h2 class="title">
+                <span class="title__text">Registration</span>
+            </h2>
+            <div class="subtitle"><span>Fill out the registration form so that we can contact you</span></div>
+            <form action="#" class="registration__form">
+                <input type="email" class="registration__input">
+                <input type="password" class="registration__input">
+            </form>
+            <button class="button">Sign Up</button>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="social-networks">
+            <h2 class="title">
+                <span class="title__text">We are in social networks</span>
+            </h2>
+            <div class="social-networks__logos">
+                <a href="#"><img src="images/instagram.png" alt="instagram-logo" class="social-networks__logo">
+                </a>
+                <a href="#"><img src="images/vk.png" alt="vk-logo" class="social-networks__logo">
+                </a>
+                <a href="#"><img src="images/facebook.png" alt="facebook-logo" class="social-networks__logo">
+                </a>
+            </div>
+        </div>
+        <div class="logo-privacy">
+            <a href="index.html" class="logo">
+                <picture>
+                    <source srcset="images/frogo_logo.webp" type="image/webp">
+                    <img src="images/frogo_logo.png" alt="frogo-logo" class="logo__image">
+                </picture>
+                <div class="logo__text">
+                    <span>Frogs Seller</span>
+                </div>
+            </a>
+            <div class="privacy">
+                <span>(с) 2022. Все права защищены.</span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
